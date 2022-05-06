@@ -1,0 +1,31 @@
+{
+  "name": "web-speech-ai",
+  "version": "1.0.0",
+  "description": "Simple AI Chat Bot Demo with Web Speech API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nf start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomomi Imura",
+  "license": "MIT",
+  "private": "true",
+  "dependencies": {
+    "action": "0.0.1",
+    "actions-on-google": "^2.12.0",
+    "apiai": "^4.0.2",
+    "dialogflow-fulfillment": "^0.3.0-beta.3",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "enum": "^2.5.0",
+    "express": "^4.15.2",
+    "firebase-admin": "^8.9.0",
+    "firebase-functions": "^3.3.0",
+    "fs": "0.0.1-security",
+    "google": "^2.1.0",
+    "googleapis": "^39.2.0",
+    "linebot": "^1.5.3",
+    "on": "^1.3.0",
+    "socketio": "^1.0.0"
+  }
+}

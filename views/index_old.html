@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="TaiwanMobile Chat Bot Demo with Web Speech API">
+    <meta name="author" content="Tomomi Imura  @girlie_mac">
+    <meta name="author" content="Alice Liu  @ibm">
+    <link rel="icon" href="../public/images/taiwanMobile.svg" type="image/x-icon">
+
+    <title>Taiwan Mobile Bot - Alice</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <section>
+      <h1><strong>Taiwan Mobile Bot</strong></h1>
+      <h2><strong>智能助理 - 愛莉絲</strong></h2>
+
+      <!-- <button><i class="fa fa-microphone"></i></button> -->
+      <button><img width="150" class="fa fa-microphone" src="https://img.icons8.com/color/100/000000/microphone.png"></button>
+
+      <div>
+        <!-- <strong> -->
+          <p>您: <em class="output-you">...</em></p>
+          <!-- <p>Bot replied: <em class="output-bot">...</em></p> -->
+          <p>愛莉絲: <em class="output-search" font-style="normal">...</em></p>
+        <!-- </strong> -->
+      </div>
+    </section>
+    <section>
+      <img id="img_search" src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-512.png">
+    </section>
+    <footer><h3>Copyright © 2020 Alice Liu</h3></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="TaiwanMobile Chat Bot Demo with Web Speech API">
+  <meta name="author" content="Tomomi Imura  @girlie_mac">
+  <meta name="author" content="Alice Liu  @ibm">
+  <link rel="icon" href="../images/logo-noword-nobg.png" type="image/x-icon">
+
+  <title>Taiwan Mobile Bot</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section>
+    <div class="header" style="color: white">
+      <h1><strong>台灣大哥大</strong></h1>
+      <h2><strong>智慧音箱 - 愛麗絲</strong></h2>
+    </div>
+
+    <!-- <button><i class="fa fa-microphone"></i></button> -->
+    <button>
+      <img width="150" src="../images/logo-noword-nobg.png">
+    </button>
+
+    <div style="font-size: 16p">
+      <p style="color: white">使用者：<span class="output-you">...</span></p>
+      <p style="color: #fff200">愛麗絲：<span class="output-search">...</span></p>
+    </div>
+  </section>
+  <section>
+    <img id="img_search" src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-512.png">
+  </section>
+  <footer>
+    <h4>Copyright © 2020 Alice Liu</h4>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
